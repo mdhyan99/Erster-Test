@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+   margin-top: 40px;
+}
+header {
+    background-color: cyan;
+    position: fixed;
+    width: 100%;
+    margin-top: -50px;
+padding: 15px 0px;
+
+}
+.main {
+    margin-left: 15px;
+}
+
+.images {
+    display: inline-block;
+}
+.images a img {
+    width: 200px;
+    height: 120px;
+    border-radius: 50% 50%;
+}
+section ul li:nth-child(2){
+color: blue;
+}
+.schrift {
+    text-transform: uppercase;
+    color:rgb(243, 163, 15) ;
+    font-size: 2em;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: red;
+}
+.box-model{
+    margin-left: 10%;
+}
+.parag{
+    padding: 5px;
+}
+
